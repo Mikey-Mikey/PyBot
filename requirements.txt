@@ -23,7 +23,6 @@ pyperclip==1.8.2
 PyRect==0.1.4
 PyScreeze==0.1.28
 pytweening==1.0.4
-
 six==1.16.0
 sqlparse==0.4.2
 typing_extensions==4.3.0

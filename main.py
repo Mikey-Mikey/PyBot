@@ -81,4 +81,4 @@ async def on_message(msg):
       
         
 keep_alive()  # Starts a webserver to be pinged.
-client.run()  # Starts the bot
+client.run(os.getenv("CLIENT_TOKEN"))  # Starts the bot

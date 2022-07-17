@@ -81,5 +81,4 @@ async def on_message(msg):
       
         
 keep_alive()  # Starts a webserver to be pinged.
-token = os.environ.get("DISCORD_BOT_SECRET")
-client.run(token)  # Starts the bot
+client.run()  # Starts the bot
